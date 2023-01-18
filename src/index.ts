@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import Connection from './Connection'
 
-const connectio = new Connection({})
+import env from '@config/process.env'
