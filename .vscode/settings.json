@@ -1,6 +1,0 @@
-{
-    "dotenv.enableAutocloaking": false,
-    "alias-resolver.file": "tsconfig.json",
-    "alias-resolver.type": "custom",
-    "alias-resolver.accessPath": "@config"
-}
