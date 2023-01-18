@@ -6,9 +6,10 @@
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
         "strict": true,
-
         "declaration": true,
-
+        "rootDir": "./src/",
+        "outDir": "build",
+        "importHelpers": true,
         "paths": {
             "@config/*": ["./src/config/*"]
         }

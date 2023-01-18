@@ -7,7 +7,11 @@ export default class Connection {
         this.context = mysql2.createConnection(this.config)
     }
 
-    getContext(): Promise<mysql2.Connection> {
+    prom(): Promise<mysql2.Connection> {
         return this.context
+    }
+
+    setConfig(config: mysql2.ConnectionOptions) {
+        this.config = { ...this.config, ...config }
     }
 }
