@@ -1,14 +1,14 @@
 {
     "name": "mysql-pdo",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "execute mysql functions without writing query strings",
-    "main": "build/index.js",
+    "main": "build/index.cjs",
     "type": "module",
     "scripts": {
         "test": "vitest basic",
         "start": "tsx src",
         "start:dev": "tsx watch src",
-        "build": "rm -rf build && tsup src"
+        "build": "rm -rf build && tsup src --dts"
     },
     "keywords": [
         "mysql",
